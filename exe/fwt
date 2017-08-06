@@ -2,4 +2,5 @@
 
 require "fun_with_thor"
 
+FunWithThor::CLI.package_name("fwt")
 FunWithThor::CLI.start(ARGV)
