@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require "fun_with_thor"
+
+FunWithThor::CLI.start(ARGV)
